@@ -1,12 +1,23 @@
-# React + Vite
+# Solar Flare Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Solar Flare Dashboard** is a modern, interactive web application that visualizes NASA solar flare data on a world map. Users can explore solar flare events by date, class (C/M/X), region, and more, with a beautiful, responsive UI and rich tooltips for scientific exploration and educational purposes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🌍 **World Map Visualization:** Solar flare events are plotted as colored circles on an interactive world map using D3.js and TopoJSON.
+- 🔎 **Date Range & Class Filtering:** Filter flares by date and by X-ray class (C, M, X) using intuitive controls.
+- 🗺️ **Region Search:** Instantly search for flares by heliographic region or active region number.
+- 🖱️ **Hover Tooltips:** Hover over any flare to see its name or event ID in a floating tooltip.
+- 📊 **Summary Cards:** See total and per-class flare counts for the selected range.
+- 🧭 **Legend & Glossary:** Built-in legend and glossary for quick reference of terms and color codes.
+- 📚 **About Page:** Learn about solar flares, data sources, and how to read the dashboard.
+- 💡 **Fully Responsive:** Works beautifully on desktop and mobile devices.
+- 🚀 **Powered by NASA DONKI API:** Live solar flare data from NASA's official DONKI service.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+
+
