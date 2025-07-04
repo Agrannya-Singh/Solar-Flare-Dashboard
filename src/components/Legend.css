@@ -1,0 +1,21 @@
+.legend {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+.legend-item {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: var(--color-text-light);
+}
+.legend-item svg {
+  display: block;
+}
+.legend-item span {
+  line-height: 1;
+}
